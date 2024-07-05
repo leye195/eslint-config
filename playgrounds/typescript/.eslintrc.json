@@ -1,0 +1,6 @@
+{
+  "extends": ["@leye195/ts"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  }
+}

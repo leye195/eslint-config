@@ -3,5 +3,10 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.defaultFormatter": null
+  },
+  "prettier.useEditorConfig": false
 }

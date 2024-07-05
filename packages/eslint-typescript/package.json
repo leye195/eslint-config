@@ -1,0 +1,45 @@
+{
+  "name": "@leye195/eslint-config-ts",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "typescript eslint",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "source": "./index.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.2.10"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@leye195/eslint-config-base-test": "^0.0.3",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint": "*"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}

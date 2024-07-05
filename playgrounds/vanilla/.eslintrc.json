@@ -1,0 +1,6 @@
+{
+  "extends": ["@leye195/base-test"],
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
