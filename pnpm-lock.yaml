@@ -21,27 +21,6 @@ importers:
         specifier: ^5.4.5
         version: 5.4.5
 
-  apps/typescript:
-    devDependencies:
-      '@leye195/eslint-config-ts':
-        specifier: workspace:*
-        version: link:../../packages/eslint-typescript
-      typescript:
-        specifier: ^5.2.2
-        version: 5.5.3
-      vite:
-        specifier: ^5.3.1
-        version: 5.3.3
-
-  apps/vanilla:
-    devDependencies:
-      '@leye195/eslint-config-base':
-        specifier: workspace:*
-        version: link:../../packages/eslint-base
-      vite:
-        specifier: ^5.3.1
-        version: 5.3.3
-
   packages/eslint-base:
     dependencies:
       eslint:
@@ -87,6 +66,27 @@ importers:
     devDependencies:
       vite:
         specifier: ^5.2.10
+        version: 5.3.3
+
+  playgrounds/typescript:
+    devDependencies:
+      '@leye195/eslint-config-ts':
+        specifier: workspace:*
+        version: link:../../packages/eslint-typescript
+      typescript:
+        specifier: ^5.2.2
+        version: 5.5.3
+      vite:
+        specifier: ^5.3.1
+        version: 5.3.3
+
+  playgrounds/vanilla:
+    devDependencies:
+      '@leye195/eslint-config-base':
+        specifier: workspace:*
+        version: link:../../packages/eslint-base
+      vite:
+        specifier: ^5.3.1
         version: 5.3.3
 
 packages:

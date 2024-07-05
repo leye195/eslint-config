@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "build:eslint-base": "pnpm --filter ./packages/eslint-base build",
+    "build:eslint-typescript": "pnpm --filter ./packages/eslint-typescript build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
+
   },
   "devDependencies": {
     "prettier": "^3.2.5",
