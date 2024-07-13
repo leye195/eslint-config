@@ -1,7 +1,7 @@
 module.exports = {
   env: { browser: true, es2021: true, node: true },
   parser: "@typescript-eslint/parser",
-  extends: ["@leye195/base-test", "plugin:@typescript-eslint/recommended"],
+  extends: ["@leye195/base", "plugin:@typescript-eslint/recommended"],
   plugins: ["@typescript-eslint", "import"],
   overrides: [
     {

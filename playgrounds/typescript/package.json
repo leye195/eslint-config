@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@leye195/eslint-config-ts": "workspace:^",
     "typescript": "^5.2.2",
-    "vite": "^5.3.1",
-    "@leye195/eslint-config-ts": "workspace:*"
+    "vite": "^5.3.1"
   }
 }

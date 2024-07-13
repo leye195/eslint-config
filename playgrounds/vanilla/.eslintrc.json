@@ -1,5 +1,5 @@
 {
-  "extends": ["@leye195/base-test"],
+  "extends": ["@leye195/base"],
   "parserOptions": {
     "sourceType": "module"
   }
