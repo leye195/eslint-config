@@ -1,7 +1,12 @@
 module.exports = {
   env: { browser: true, es2021: true, node: true },
-  extends: ["plugin:@typescript-eslint/recommended", "@leye195/ts"],
+  extends: ["@leye195/ts"],
   plugins: ["react", "react-hooks"],
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   parserOptions: {
     requireConfigFile: false,
     babelOptions: {
@@ -13,6 +18,7 @@ module.exports = {
     sourceType: "module",
     ecmaVersion: "latest",
   },
+  ignorePatterns: ['node_modules/', 'dist/', '**/*.eslint*', '**/*.css'],
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
